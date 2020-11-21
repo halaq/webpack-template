@@ -12,7 +12,7 @@
     "env": {
         "production": {
           // This plugin removes all console.* calls on production mode only.
-          "plugins": ["transform-remove-console"]
+        //   "plugins": ["transform-remove-console"]
         }
     }
 }

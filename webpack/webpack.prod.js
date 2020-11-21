@@ -133,7 +133,7 @@ let config = {
     // extracts CSS into separate files. It creates a CSS file per JS file which contains CSS.
     // https://www.npmjs.com/package/mini-css-extract-plugin
     new MiniCssExtractPlugin({
-      filename: `${commonPaths.cssFolder}/[name].css`,
+      filename: `${commonPaths.cssFolder}/style.css`,
       chunkFilename: "[name].css",
     }),
     //Prepare compressed versions of assets to serve them with Content-Encoding.

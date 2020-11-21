@@ -7,9 +7,9 @@ module.exports = {
 
   outputPath: path.resolve(__dirname, "../", "dist"),
 
-  demoPath: path.resolve(__dirname, "../", "demo/index.js"),
+  demoPath: path.resolve(__dirname, "../", "demo/1/index.js"),
 
-  templatePath: path.resolve(__dirname, "../", "demo/index.html"),
+  templatePath: path.resolve(__dirname, "../", "demo/1/index.html"),
 
   imgsFolder: "imgs",
   fontsFolder: "fonts",

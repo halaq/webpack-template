@@ -1,7 +1,6 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import "./style.css";
-
-console.log("Hey I'm here!!!");
 
 export function MyComponent() {
   return (
@@ -14,11 +13,11 @@ export function MyComponent() {
   );
 }
 
-export function print(text) {
-  console.log("text is: ", text);
+export function MyComponentDOM(id) {
+  ReactDOM.render(<MyComponent />, document.getElementById(id));
 }
 
 export default {
   MyComponent: MyComponent,
-  print: print,
+  MyComponentDOM: MyComponentDOM,
 };
