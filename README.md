@@ -1,5 +1,8 @@
 # 🚀 Welcome to my awesome webpack template!
 
+[![made-with-webpack](https://img.shields.io/badge/Made%20with-webpack-1f425f.svg)](http://golang.org) ![webpack version](https://img.shields.io/badge/webpack-v5.6.0-blue) ![babel 7](https://img.shields.io/badge/Babel%20-7-yellow) [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+
+
 This project has been created to show a simple welcome message only but the aim of it is to have a **webpack** code template that can be reused anytime later to generate an NPM package and a vanilla JS library from one source code. You can run the development env and use demo no. 1 (using React JS example) by:
 
 ```
