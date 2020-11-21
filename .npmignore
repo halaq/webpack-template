@@ -1,0 +1,13 @@
+# .npmignore
+src
+demo
+build
+.babelrc
+.gitignore
+.github
+.github/workflows
+.vscode
+webpack/webpack.common.js
+webpack/webpack.dev.js
+webpack/webpack.prod.js
+webpack.config.js

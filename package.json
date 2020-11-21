@@ -1,22 +1,26 @@
 {
-  "name": "webpack-template",
+  "name": "@halaq/webpack-template",
   "version": "1.0.0",
-  "description": "webpack project",
-  "main": "src/index.js",
+  "description": "webpack template",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-cli serve --mode development",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
     "transpile": "babel src -d dist --copy-files",
-    "prepublishOnly": "npm run transpile",
-    "publish:demo": "gh-pages -d dist",
-    "publish-all": "npm run build && npm run online-demo"
+    "prepublish": "npm run transpile",
+    "publish:demo": "gh-pages -d demo/2/",
+    "publish:all": "npm run build && npm run publish:demo",
+    "publish:npm": "npm run prepublish && npm publish --access public"
+  },
+  "author": "Hala Q. <h.alselawey@gmail.com> (https://www.linkedin.com/in/halaq/)",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://halaq@github.com/halaq/webpack-template.git"
   },
-  "author": "Hala Q. <h.alselawey@gmail.com> (https://www.linkedin.com/in/halaq/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/halaq/webpack-template/issues"
