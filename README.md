@@ -1,4 +1,4 @@
-# 🚀 Welcome to my new awesome project!
+# 🚀 Welcome to my awesome webpack template!
 
 This project has been created to show a simple welcome message only but the aim of it is to have a **webpack** code template that can be reused anytime later to generate an NPM package and a vanilla JS library from one source code. You can run the development env and use demo no. 1 (using React JS example) by:
 
